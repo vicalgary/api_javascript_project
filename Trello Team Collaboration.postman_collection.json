@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "db338c92-a6a3-4b2e-b6a1-0f5b7558275a",
+		"name": "Trello Team Collaboration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42412959",
+		"_collection_link": "https://vicalgaryteam1-4840.postman.co/workspace/ViCalgaryTeam1~497e38bc-e35e-484a-8c36-f8a0bd33348f/collection/42412959-db338c92-a6a3-4b2e-b6a1-0f5b7558275a?action=share&source=collection_link&creator=42412959"
+	},
+	"item": [
+		{
+			"name": "First API Call",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Trello base url}}/1/members/me/boards?key={{Trello key}}&token={{Trello token}}",
+					"host": [
+						"{{Trello base url}}"
+					],
+					"path": [
+						"1",
+						"members",
+						"me",
+						"boards"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{Trello key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Trello token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
