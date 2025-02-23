@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "First API Call",
+			"name": "First API Call 1",
 			"request": {
 				"method": "GET",
 				"header": [],
